@@ -1,0 +1,11 @@
+langchain==0.0.272
+openai==0.27.9
+numpy==1.25.2
+pandas==2.1.0
+python-dotenv==1.0.0
+pinecone-client==2.2.2
+tiktoken==0.5.1
+pdfminer-six==20221105
+sentence-transformers==2.2.2
+beautifulsoup4
+pinecone-text[splade]

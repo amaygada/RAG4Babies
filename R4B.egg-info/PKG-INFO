@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: R4B
+Version: 0.1.0
+Summary: A wrapper around Langchain and pinecone to perform Retrieval Augmented Gneration. Include your OpenAI and Pinecone API keys, and start querying documents using LLMs!
+Home-page: https://github.com/amaygada/RAG4Babies
+Author: Amay Gada
+Author-email: amaygada@gmail.com
+License: BSD 2-clause
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: langchain==0.0.272
+Requires-Dist: openai==0.27.9
+Requires-Dist: numpy==1.25.2
+Requires-Dist: pandas==2.1.0
+Requires-Dist: python-dotenv==1.0.0
+Requires-Dist: pinecone-client==2.2.2
+Requires-Dist: tiktoken==0.5.1
+Requires-Dist: pdfminer-six==20221105
+Requires-Dist: sentence-transformers==2.2.2
+Requires-Dist: beautifulsoup4
+Requires-Dist: pinecone-text[splade]
